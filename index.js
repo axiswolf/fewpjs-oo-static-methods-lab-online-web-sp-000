@@ -23,7 +23,7 @@ class Formatter {
         } else {
           newArray.push(word)
         }
-  })
-return newArray.join(' ').charAt(0).toUpperCase() + newArray.join(' ').slice(1)
+      })
+      return newArray.join(' ').charAt(0).toUpperCase() + newArray.join(' ').slice(1)
   };
 }
