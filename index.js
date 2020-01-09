@@ -5,7 +5,7 @@ class Formatter {
      return str.replace(reg, (match) => match.toUpperCase())
   };
 
-  static santitize(str) {
+  static sanitize(str) {
     // removes non-alphanumeric characters except for dash, single quote, and space
     var reg = /[$@!#^*({]/gi
       return str.replace(r,'')
