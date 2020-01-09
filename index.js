@@ -1,7 +1,8 @@
 class Formatter {
   //add static methods here
   static capitalize(str) {
-
+     var reg = /(\b[a-z](?!\s))/g
+     return str.replae(reg, (match) => match.toUpperCase())
   };
 
   static santitize(str) {
