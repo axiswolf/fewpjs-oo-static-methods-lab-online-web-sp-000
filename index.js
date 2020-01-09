@@ -8,7 +8,7 @@ class Formatter {
   static sanitize(str) {
     // removes non-alphanumeric characters except for dash, single quote, and space
     var reg = /[$@!#^*({]/gi
-      return str.replace(r,'')
+      return str.replace(reg,'')
   };
 
   static titleize(str) {
